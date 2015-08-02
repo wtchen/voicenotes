@@ -1,0 +1,38 @@
+body {
+  font-family: Century Gothic, sans-serif;
+}
+body .navbar {
+  border-radius: 0 !important;
+  margin: 0;
+}
+body .navbar .navbar-brand {
+  font-weight: bold;
+}
+body .row .sidebar {
+  display: block;
+  position: fixed;
+  background-color: #f7f7f7;
+  padding: 20px;
+  top: 52px;
+  bottom: 0;
+}
+body .row .main .recording-widget {
+  width: 75%;
+  margin: 20px auto;
+}
+body .row .main .recording-widget table {
+  margin: 0 auto;
+  width: 25%;
+}
+body .row .main .recording-widget table .btn-default {
+  margin: 0 0 0 25%;
+}
+body .row .main .recording-widget table .btn-default .glyphicon {
+  vertical-align: middle;
+}
+body .row .main .recording-widget table audio {
+  padding-top: 35px;
+}
+body .row .main .recording-widget table video {
+  border-style: dotted;
+}

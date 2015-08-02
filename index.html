@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voice Notes</title>
+    <link rel="stylesheet" href="stylesheets/bootstrap.css"/>
+    <link rel="stylesheet" href="stylesheets/lavish-bootstrap.css"/>
+    <link rel="stylesheet" href="stylesheets/toastr.css"/>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-brand">Voice Notes</div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li><a href="#">All Notes</a></li>
+                </ul>
+                <ul class="nav nav-sidebar">
+                    <li><a href="#">Tag 1</a></li>
+                    <li><a href="#">Tag 2</a></li>
+                    <li><a href="#">Tag 3</a></li>
+                    <li><a href="#">Tag 4</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <div id="myAudioControls" class="audioControls"></div>
+                <div id="myGallery" class="gallery"></div>
+            </div>
+        </div>
+    </div>
+    <script language="JavaScript" src="javascripts/libraries/jquery-1.11.3.min.js"></script>
+    <script language="JavaScript" src="javascripts/libraries/react-0.13.3.js"></script>
+    <script language="JavaScript" src="javascripts/bootstrap/bootstrap.js"></script>
+    <script language="JavaScript" src="javascripts/libraries/toastr.js"></script>
+    <script language="JavaScript" src="javascripts/voicenotes.prod.js"></script>
+</body>
+</html>
