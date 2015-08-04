@@ -11,7 +11,7 @@ var Controls = React.createClass({
                 var video = document.querySelector("video");
                 video.src = "";
                 lstream.stop();
-                lstream = null;
+                this.setState({previewing: false});
             }
             toastr.info("Recording stopped");
             document.getElementById("recBtn").innerHTML = "<span class=\"glyphicon glyphicon-record\"/>";
