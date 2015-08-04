@@ -29,6 +29,10 @@ body .row .main .recording-widget table .btn-default {
 }
 body .row .main .recording-widget table .btn-default .glyphicon {
   vertical-align: middle;
+  line-height: 20px;
+}
+body .row .main .recording-widget table .btn-default .glyphicon-record {
+  color: red;
 }
 body .row .main .recording-widget table audio {
   padding-top: 35px;
